@@ -5,9 +5,9 @@
 package mining
 
 import (
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/blockchain"
+	"github.com/denuoweb/btcd/wire"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 const (

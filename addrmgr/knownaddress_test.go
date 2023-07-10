@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qtumproject/btcd/addrmgr"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/addrmgr"
+	"github.com/denuoweb/btcd/wire"
 )
 
 func TestChance(t *testing.T) {

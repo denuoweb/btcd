@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/txscript"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 const (

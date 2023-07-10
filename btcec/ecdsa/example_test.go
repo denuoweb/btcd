@@ -8,9 +8,9 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/btcec/v2/ecdsa"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/btcec/v2"
+	"github.com/denuoweb/btcd/btcec/v2/ecdsa"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
 )
 
 // This example demonstrates signing a message with a secp256k1 private key that

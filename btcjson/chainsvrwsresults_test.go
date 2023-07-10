@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcjson"
+	"github.com/denuoweb/btcd/btcjson"
 )
 
 // TestChainSvrWsResults ensures any results that have custom marshalling

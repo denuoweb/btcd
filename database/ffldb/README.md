@@ -1,9 +1,9 @@
 ffldb
 =====
 
-[![Build Status](https://github.com/qtumproject/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/qtumproject/btcd/actions)
+[![Build Status](https://github.com/denuoweb/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/denuoweb/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://pkg.go.dev/github.com/qtumproject/btcd/database/ffldb?status.png)](https://pkg.go.dev/github.com/qtumproject/btcd/database/ffldb)
+[![GoDoc](https://pkg.go.dev/github.com/denuoweb/btcd/database/ffldb?status.png)](https://pkg.go.dev/github.com/denuoweb/btcd/database/ffldb)
 =======
 
 Package ffldb implements a driver for the database package that uses leveldb for

@@ -9,7 +9,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
 )
 
 // MaxBlockHeaderPayload is the maximum number of bytes a block header can be.

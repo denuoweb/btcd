@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // BenchmarkIsCoinBase performs a simple benchmark against the IsCoinBase

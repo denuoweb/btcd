@@ -9,10 +9,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/mining"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/mining"
+	"github.com/denuoweb/btcd/wire"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // newTestFeeEstimator creates a feeEstimator with some different parameters

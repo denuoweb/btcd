@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/database"
+	"github.com/denuoweb/btcd/wire"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // importCmd defines the configuration options for the insecureimport command.

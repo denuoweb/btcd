@@ -23,8 +23,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // AddrManager provides a concurrency safe address manager for caching potential

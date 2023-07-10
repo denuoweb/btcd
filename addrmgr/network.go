@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/wire"
 )
 
 var (

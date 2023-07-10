@@ -11,9 +11,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/blockchain"
+	"github.com/denuoweb/btcd/database"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 var (

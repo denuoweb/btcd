@@ -7,8 +7,8 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/database"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

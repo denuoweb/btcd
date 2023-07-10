@@ -12,9 +12,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/btcec/v2"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

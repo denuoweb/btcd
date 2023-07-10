@@ -33,19 +33,19 @@ const (
 func (u AmountUnit) String() string {
 	switch u {
 	case AmountMegaBTC:
-		return "MQTUM"
+		return "MHTMLCOIN"
 	case AmountKiloBTC:
-		return "kQTUM"
+		return "kHTMLCOIN"
 	case AmountBTC:
-		return "QTUM"
+		return "HTMLCOIN"
 	case AmountMilliBTC:
-		return "mQTUM"
+		return "mHTMLCOIN"
 	case AmountMicroBTC:
-		return "μQTUM"
+		return "μHTMLCOIN"
 	case AmountSatoshi:
 		return "Satoshi"
 	default:
-		return "1e" + strconv.FormatInt(int64(u), 10) + " QTUM"
+		return "1e" + strconv.FormatInt(int64(u), 10) + " HTMLCOIN"
 	}
 }
 
@@ -72,7 +72,7 @@ func round(f float64) Amount {
 // NewAmount is for specifically for converting BTC to Satoshi.
 // For creating a new Amount with an int64 value which denotes a quantity of Satoshi,
 // do a simple type conversion from type int64 to Amount.
-// See GoDoc for example: http://godoc.org/github.com/qtumproject/btcd/btcutil#example-Amount
+// See GoDoc for example: http://godoc.org/github.com/denuoweb/btcd/btcutil#example-Amount
 func NewAmount(f float64) (Amount, error) {
 	// The amount is only considered invalid if it cannot be represented
 	// as an integer type.  This may happen if f is NaN or +-Infinity.

@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/qtumproject/btcd/btcutil/bech32"
+	"github.com/denuoweb/btcd/btcutil/bech32"
 )
 
 // This example demonstrates how to decode a bech32 encoded string.

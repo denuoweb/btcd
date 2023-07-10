@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/btcutil/base58"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/btcec/v2"
+	"github.com/denuoweb/btcd/btcutil"
+	"github.com/denuoweb/btcd/btcutil/base58"
+	"github.com/denuoweb/btcd/chaincfg"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
 )
 
 const (

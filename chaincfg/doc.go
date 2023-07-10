@@ -25,8 +25,8 @@
 //          "fmt"
 //          "log"
 //
-//          "github.com/qtumproject/btcd/btcutil"
-//          "github.com/qtumproject/btcd/chaincfg"
+//          "github.com/denuoweb/btcd/btcutil"
+//          "github.com/denuoweb/btcd/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

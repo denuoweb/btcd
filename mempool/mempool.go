@@ -12,15 +12,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/blockchain/indexers"
-	"github.com/qtumproject/btcd/btcjson"
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/mining"
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/blockchain"
+	"github.com/denuoweb/btcd/blockchain/indexers"
+	"github.com/denuoweb/btcd/btcjson"
+	"github.com/denuoweb/btcd/btcutil"
+	"github.com/denuoweb/btcd/chaincfg"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/mining"
+	"github.com/denuoweb/btcd/txscript"
+	"github.com/denuoweb/btcd/wire"
 )
 
 const (

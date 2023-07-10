@@ -12,7 +12,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
 )
 
 const (

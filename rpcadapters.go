@@ -7,13 +7,13 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/mempool"
-	"github.com/qtumproject/btcd/netsync"
-	"github.com/qtumproject/btcd/peer"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/blockchain"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/mempool"
+	"github.com/denuoweb/btcd/netsync"
+	"github.com/denuoweb/btcd/peer"
+	"github.com/denuoweb/btcd/wire"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

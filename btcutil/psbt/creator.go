@@ -5,7 +5,7 @@
 package psbt
 
 import (
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // MinTxVersion is the lowest transaction version that we'll permit.

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/qtumproject/btcd/rpcclient"
+	"github.com/denuoweb/btcd/rpcclient"
 )
 
 func main() {

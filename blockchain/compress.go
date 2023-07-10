@@ -5,8 +5,8 @@
 package blockchain
 
 import (
-	"github.com/qtumproject/btcd/btcec/v2"
-	"github.com/qtumproject/btcd/txscript"
+	"github.com/denuoweb/btcd/btcec/v2"
+	"github.com/denuoweb/btcd/txscript"
 )
 
 // -----------------------------------------------------------------------------

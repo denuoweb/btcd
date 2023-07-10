@@ -1,5 +1,5 @@
-module github.com/qtumproject/btcd/chaincfg/chainhash
+module github.com/denuoweb/btcd/chaincfg/chainhash
 
-replace github.com/qtumproject/btcd => ../../
+replace github.com/denuoweb/btcd => ../../
 
 go 1.17

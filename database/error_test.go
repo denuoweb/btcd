@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/qtumproject/btcd/database"
+	"github.com/denuoweb/btcd/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

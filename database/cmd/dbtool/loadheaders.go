@@ -7,8 +7,8 @@ package main
 import (
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/database"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/database"
 )
 
 // headersCmd defines the configuration options for the loadheaders command.

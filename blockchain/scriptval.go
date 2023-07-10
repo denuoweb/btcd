@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/btcutil"
+	"github.com/denuoweb/btcd/txscript"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // txValidateItem holds a transaction along with which input to validate.

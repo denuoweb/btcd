@@ -1,9 +1,9 @@
 peer
 ====
 
-[![Build Status](https://github.com/qtumproject/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/qtumproject/btcd/actions)
+[![Build Status](https://github.com/denuoweb/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/denuoweb/btcd/actions)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/qtumproject/btcd/peer)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/denuoweb/btcd/peer)
 
 Package peer provides a common base for creating and managing bitcoin network
 peers.
@@ -58,12 +58,12 @@ A quick overview of the major features peer provides are as follows:
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/qtumproject/btcd/peer
+$ go get -u github.com/denuoweb/btcd/peer
 ```
 
 ## Examples
 
-* [New Outbound Peer Example](https://pkg.go.dev/github.com/qtumproject/btcd/peer#example-package--NewOutboundPeer)  
+* [New Outbound Peer Example](https://pkg.go.dev/github.com/denuoweb/btcd/peer#example-package--NewOutboundPeer)  
   Demonstrates the basic process for initializing and creating an outbound peer.
   Peers negotiate by exchanging version and verack messages.  For demonstration,
   a simple handler for the version message is attached to the peer.

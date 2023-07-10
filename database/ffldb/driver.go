@@ -7,8 +7,8 @@ package ffldb
 import (
 	"fmt"
 
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/database"
+	"github.com/denuoweb/btcd/wire"
 	"github.com/btcsuite/btclog"
 )
 

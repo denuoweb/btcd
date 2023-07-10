@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/qtumproject/btcd/txscript"
+	"github.com/denuoweb/btcd/txscript"
 )
 
 // TestCheckBlockScripts ensures that validating the all of the scripts in a

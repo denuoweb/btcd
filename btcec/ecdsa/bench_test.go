@@ -10,7 +10,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcec/v2"
+	"github.com/denuoweb/btcd/btcec/v2"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // POutput is a struct encapsulating all the data that can be attached

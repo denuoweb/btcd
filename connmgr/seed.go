@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/chaincfg"
+	"github.com/denuoweb/btcd/wire"
 )
 
 const (

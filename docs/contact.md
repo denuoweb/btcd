@@ -11,5 +11,5 @@
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/qtumproject/btcd/issues)
+The [integrated github issue tracker](https://github.com/denuoweb/btcd/issues)
 is used for this project.

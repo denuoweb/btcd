@@ -7,8 +7,8 @@ package hdkeychain_test
 import (
 	"fmt"
 
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/btcutil/hdkeychain"
+	"github.com/denuoweb/btcd/chaincfg"
+	"github.com/denuoweb/btcd/btcutil/hdkeychain"
 )
 
 // This example demonstrates how to generate a cryptographically random seed

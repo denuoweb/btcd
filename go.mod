@@ -1,12 +1,12 @@
-module github.com/qtumproject/btcd
+module github.com/denuoweb/btcd
 
-replace github.com/qtumproject/btcd => ./
+replace github.com/denuoweb/btcd => ./
 
-replace github.com/qtumproject/btcd/btcec/v2 => ./btcec
+replace github.com/denuoweb/btcd/btcec/v2 => ./btcec
 
-replace github.com/qtumproject/btcd/btcutil => ./btcutil
+replace github.com/denuoweb/btcd/btcutil => ./btcutil
 
-replace github.com/qtumproject/btcd/chaincfg/chainhash => ./chaincfg/chainhash
+replace github.com/denuoweb/btcd/chaincfg/chainhash => ./chaincfg/chainhash
 
 require (
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
@@ -18,10 +18,10 @@ require (
 	github.com/decred/dcrd/lru v1.0.0
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
-	// github.com/qtumproject/btcd/btcec/v2 v2.1.3
-	github.com/qtumproject/btcd/btcec/v2 v2.0.0-beta.qtum
-	github.com/qtumproject/btcd/btcutil v1.0.0-beta.qtum
-	github.com/qtumproject/btcd/chaincfg/chainhash v1.0.0-beta.qtum
+	// github.com/denuoweb/btcd/btcec/v2 v2.1.3
+	github.com/denuoweb/btcd/btcec/v2 v2.0.0-beta.htmlcoin
+	github.com/denuoweb/btcd/btcutil v1.0.0-beta.htmlcoin
+	github.com/denuoweb/btcd/chaincfg/chainhash v1.0.0-beta.htmlcoin
 	github.com/stretchr/testify v1.7.0
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9

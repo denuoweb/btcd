@@ -1,9 +1,9 @@
 btcutil
 =======
 
-[![Build Status](https://github.com/qtumproject/btcd/btcutil/workflows/Build%20and%20Test/badge.svg)](https://github.com/qtumproject/btcd/btcutil/actions)
+[![Build Status](https://github.com/denuoweb/btcd/btcutil/workflows/Build%20and%20Test/badge.svg)](https://github.com/denuoweb/btcd/btcutil/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/qtumproject/btcd/btcutil)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/denuoweb/btcd/btcutil)
 
 Package btcutil provides bitcoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
@@ -20,7 +20,7 @@ provided.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/qtumproject/btcd/btcutil
+$ go get -u github.com/denuoweb/btcd/btcutil
 ```
 
 ## GPG Verification Key

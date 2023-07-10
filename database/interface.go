@@ -8,8 +8,8 @@
 package database
 
 import (
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // Cursor represents a cursor over key/value pairs and nested buckets of a

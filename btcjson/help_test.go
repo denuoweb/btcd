@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcjson"
+	"github.com/denuoweb/btcd/btcjson"
 )
 
 // TestHelpReflectInternals ensures the various help functions which deal with

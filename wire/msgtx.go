@@ -10,7 +10,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
 )
 
 const (

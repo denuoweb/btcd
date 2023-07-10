@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/qtumproject/btcd/blockchain"
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/database"
-	_ "github.com/qtumproject/btcd/database/ffldb"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/blockchain"
+	"github.com/denuoweb/btcd/chaincfg"
+	"github.com/denuoweb/btcd/database"
+	_ "github.com/denuoweb/btcd/database/ffldb"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // This example demonstrates how to create a new chain instance and use

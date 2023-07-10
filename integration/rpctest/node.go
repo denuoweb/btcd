@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/qtumproject/btcd/rpcclient"
-	"github.com/qtumproject/btcd/btcutil"
+	rpc "github.com/denuoweb/btcd/rpcclient"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process

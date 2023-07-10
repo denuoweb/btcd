@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
 
-	"github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/btcutil"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // GetBlockHeaderVerboseResult models the data from the getblockheader command when
@@ -432,7 +432,7 @@ type ScriptPubKeyResult struct {
 	ReqSigs   int32    `json:"reqSigs,omitempty"`
 	Type      string   `json:"type"`
 	Addresses []string `json:"addresses,omitempty"`
-	//! ************ Added for qtum support ******
+	//! ************ Added for htmlcoin support ******
 	Address string `json:"address,omitempty"`
 	//! *****************************************
 }
@@ -444,7 +444,7 @@ type GetTxOutResult struct {
 	Value         float64            `json:"value"`
 	ScriptPubKey  ScriptPubKeyResult `json:"scriptPubKey"`
 	Coinbase      bool               `json:"coinbase"`
-	//! ************ Added for qtum support ******
+	//! ************ Added for htmlcoin support ******
 	Coinstake bool `json:"coinstake"`
 	//! *****************************************
 }
@@ -532,7 +532,7 @@ type Vin struct {
 	ScriptSig *ScriptSig `json:"scriptSig"`
 	Sequence  uint32     `json:"sequence"`
 	Witness   []string   `json:"txinwitness"`
-	//! ******** Added for qtum support ************
+	//! ******** Added for htmlcoin support ************
 	Amount        float64 `json:"value"`
 	AmountSatoshi int64   `json:"valueSat"`
 	Address       string  `json:"address"`
@@ -587,7 +587,7 @@ func (v *Vin) MarshalJSON() ([]byte, error) {
 		Vout      uint32     `json:"vout"`
 		ScriptSig *ScriptSig `json:"scriptSig"`
 		Sequence  uint32     `json:"sequence"`
-		//! ******** Added for qtum support ************
+		//! ******** Added for htmlcoin support ************
 		Address   string  `json:"address"`
 		Amount    float64 `json:"value"`
 		AmountSat int64   `json:"valueSat"`
@@ -597,7 +597,7 @@ func (v *Vin) MarshalJSON() ([]byte, error) {
 		Vout:      v.Vout,
 		ScriptSig: v.ScriptSig,
 		Sequence:  v.Sequence,
-		//! ******** Added for qtum support ************
+		//! ******** Added for htmlcoin support ************
 		Address:   v.Address,
 		Amount:    v.Amount,
 		AmountSat: v.AmountSatoshi,
@@ -688,7 +688,7 @@ type Vout struct {
 	Value        float64            `json:"value"`
 	N            uint32             `json:"n"`
 	ScriptPubKey ScriptPubKeyResult `json:"scriptPubKey"`
-	//! ******** Added for qtum support ************
+	//! ******** Added for htmlcoin support ************
 	AmountSatoshi int64  `json:"valueSat"`
 	SpentTxId     string `json:"spentTxId"`   // "e588141d2646fa6f1fd865ae141df476f6687e36d2f90e2e38caeb483fe5dbfb",
 	SpentIndex    uint32 `json:"spentIndex"`  //4,
@@ -750,7 +750,7 @@ type TxRawResult struct {
 	Confirmations uint64 `json:"confirmations,omitempty"`
 	Time          int64  `json:"time,omitempty"`
 	Blocktime     int64  `json:"blocktime,omitempty"`
-	//! ******** Added for qtum support ************
+	//! ******** Added for htmlcoin support ************
 	Height uint64 `json:"height,omitempty"`
 }
 

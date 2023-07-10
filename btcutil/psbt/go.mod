@@ -1,12 +1,12 @@
-module github.com/qtumproject/btcd/btcutil/psbt
+module github.com/denuoweb/btcd/btcutil/psbt
 
 go 1.17
 
 require (
-	github.com/qtumproject/btcd v0.23.0
-	github.com/qtumproject/btcd/btcec/v2 v2.1.3
-	github.com/qtumproject/btcd/btcutil v1.1.0
-	github.com/qtumproject/btcd/chaincfg/chainhash v1.0.1
+	github.com/denuoweb/btcd v0.23.0
+	github.com/denuoweb/btcd/btcec/v2 v2.1.3
+	github.com/denuoweb/btcd/btcutil v1.1.0
+	github.com/denuoweb/btcd/chaincfg/chainhash v1.0.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/stretchr/testify v1.7.0
 )
@@ -21,6 +21,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
 
-replace github.com/qtumproject/btcd/btcutil => ../
+replace github.com/denuoweb/btcd/btcutil => ../
 
-replace github.com/qtumproject/btcd => ../..
+replace github.com/denuoweb/btcd => ../..

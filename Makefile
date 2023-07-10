@@ -1,4 +1,4 @@
-PKG := github.com/qtumproject/btcd
+PKG := github.com/denuoweb/btcd
 
 LINT_PKG := github.com/golangci/golangci-lint/cmd/golangci-lint
 GOACC_PKG := github.com/ory/go-acc

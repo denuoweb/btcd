@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/qtumproject/btcd/txscript"
+	"github.com/denuoweb/btcd/txscript"
 )
 
 // CreateWalletResult models the result of the createwallet command.

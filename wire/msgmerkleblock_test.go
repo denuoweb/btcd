@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
 )
 

@@ -15,10 +15,10 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/qtumproject/btcd/blockchain/indexers"
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/limits"
-	"github.com/qtumproject/btcd/ossec"
+	"github.com/denuoweb/btcd/blockchain/indexers"
+	"github.com/denuoweb/btcd/database"
+	"github.com/denuoweb/btcd/limits"
+	"github.com/denuoweb/btcd/ossec"
 )
 
 const (

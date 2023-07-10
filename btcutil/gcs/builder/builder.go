@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
-	"github.com/qtumproject/btcd/btcutil/gcs"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/txscript"
+	"github.com/denuoweb/btcd/wire"
+	"github.com/denuoweb/btcd/btcutil/gcs"
 )
 
 const (

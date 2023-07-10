@@ -14,7 +14,7 @@ import (
 
 	"io"
 
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // psbtMagicLength is the length of the magic bytes used to signal the start of

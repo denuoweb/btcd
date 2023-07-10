@@ -12,8 +12,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/qtumproject/btcd/txscript"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/txscript"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // WriteTxWitness is a utility function due to non-exported witness

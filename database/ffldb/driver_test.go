@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/database"
-	"github.com/qtumproject/btcd/database/ffldb"
-	"github.com/qtumproject/btcd/btcutil"
+	"github.com/denuoweb/btcd/chaincfg"
+	"github.com/denuoweb/btcd/database"
+	"github.com/denuoweb/btcd/database/ffldb"
+	"github.com/denuoweb/btcd/btcutil"
 )
 
 // dbType is the database type name for this driver.

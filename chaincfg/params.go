@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default
@@ -270,29 +270,29 @@ type Params struct {
 	HDCoinType uint32
 }
 
-// ! *** Added for Qtum project support ***
-var QtumMainnetParams = Params{
-	Name:             "qtum",
-	Net:              wire.QtumMainnet,
-	DefaultPort:      "3889",
-	PubKeyHashAddrID: 0x3a,
-	ScriptHashAddrID: 0x32,
-	PrivateKeyID:     0x80,
+// ! *** Added for Htmlcoin project support ***
+var HtmlcoinMainnetParams = Params{
+	Name:             "htmlcoin",
+	Net:              wire.HtmlcoinMainnet,
+	DefaultPort:      "4889",
+	PubKeyHashAddrID: 0x29,
+	ScriptHashAddrID: 0x64,
+	PrivateKeyID:     0xA9,
 }
 
-var QtumTestnetParams = Params{
-	Name:             "qtum",
-	Net:              wire.QtumTestnet,
-	DefaultPort:      "13889",
-	PubKeyHashAddrID: 0x78,
+var HtmlcoinTestnetParams = Params{
+	Name:             "htmlcoin",
+	Net:              wire.HtmlcoinTestnet,
+	DefaultPort:      "14889",
+	PubKeyHashAddrID: 0x64,
 	ScriptHashAddrID: 0x6e,
 	PrivateKeyID:     0xEF,
 }
 
-var QtumRegtestParams = Params{
-	Name:             "qtum",
-	Net:              wire.QtumRegtest,
-	DefaultPort:      "13889",
+var HtmlcoinRegtestParams = Params{
+	Name:             "htmlcoin",
+	Net:              wire.HtmlcoinRegtest,
+	DefaultPort:      "14889",
 	PubKeyHashAddrID: 0x78,
 	ScriptHashAddrID: 0x6e,
 	PrivateKeyID:     0xEF,
@@ -304,7 +304,7 @@ var QtumRegtestParams = Params{
 var MainNetParams = Params{
 	Name:        "mainnet",
 	Net:         wire.MainNet,
-	DefaultPort: "8333",
+	DefaultPort: "4333",
 	DNSSeeds: []DNSSeed{
 		{"seed.bitcoin.sipa.be", true},
 		{"dnsseed.bluematt.me", true},

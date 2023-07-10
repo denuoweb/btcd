@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qtumproject/btcd/chaincfg"
-	"github.com/qtumproject/btcd/chaincfg/chainhash"
-	"github.com/qtumproject/btcd/peer"
-	"github.com/qtumproject/btcd/wire"
+	"github.com/denuoweb/btcd/chaincfg"
+	"github.com/denuoweb/btcd/chaincfg/chainhash"
+	"github.com/denuoweb/btcd/peer"
+	"github.com/denuoweb/btcd/wire"
 	"github.com/btcsuite/go-socks/socks"
 )
 

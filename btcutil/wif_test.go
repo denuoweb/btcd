@@ -9,9 +9,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/qtumproject/btcd/btcec/v2"
-	. "github.com/qtumproject/btcd/btcutil"
-	"github.com/qtumproject/btcd/chaincfg"
+	"github.com/denuoweb/btcd/btcec/v2"
+	. "github.com/denuoweb/btcd/btcutil"
+	"github.com/denuoweb/btcd/chaincfg"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {
