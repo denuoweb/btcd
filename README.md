@@ -8,7 +8,7 @@ taken great care to avoid btcd causing a fork to the block chain.  It includes a
 full block validation testing framework which contains all of the 'official'
 block acceptance tests (and some additional ones) that is run on every pull
 request to help ensure it properly follows consensus.  Also, it passes all of
-the JSON test data in the Bitcoin Core code.
+the JSON test data in the Htmlcoin Core code.
 
 It also properly relays newly mined blocks, maintains a transaction pool, and
 relays individual transactions that have not yet made it into a block.  It
