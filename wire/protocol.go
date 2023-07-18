@@ -169,7 +169,7 @@ const (
 	//TODO: check if this is correct
 	HtmlcoinMainnet BitcoinNet = 0x4c3d2e1f
 	HtmlcoinTestnet BitcoinNet = 0x5c4d3e2f
-	HtmlcoinRegtest BitcoinNet = 0xfdc2b8dd
+	HtmlcoinRegtest BitcoinNet = 0x6c5d4e3f
 	//! ***************
 )
 
