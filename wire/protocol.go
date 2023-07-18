@@ -167,9 +167,9 @@ const (
 
 	//! Htmlcoin specific data
 	//TODO: check if this is correct
-	HtmlcoinMainnet BitcoinNet = 0x1397c10d
-	HtmlcoinTestnet BitcoinNet = 0x043587cf
-	HtmlcoinRegtest BitcoinNet = 0x043587cf
+	HtmlcoinMainnet BitcoinNet = 0x1f2e3d4c
+	HtmlcoinTestnet BitcoinNet = 0x2f3e4d5c
+	HtmlcoinRegtest BitcoinNet = 0x3f4e5d6c
 	//! ***************
 )
 
