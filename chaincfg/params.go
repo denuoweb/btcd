@@ -292,7 +292,7 @@ var HtmlcoinTestnetParams = Params{
 var HtmlcoinRegtestParams = Params{
 	Name:             "htmlcoin",
 	Net:              wire.HtmlcoinRegtest,
-	DefaultPort:      "14889",
+	DefaultPort:      "24889",
 	PubKeyHashAddrID: 0x78,
 	ScriptHashAddrID: 0x6e,
 	PrivateKeyID:     0xEF,
